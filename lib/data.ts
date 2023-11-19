@@ -64,21 +64,21 @@ export const projectsData = [
   {
     title: "Career Guidence (PWA)",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+      "I worked as a full-stack developer on this startup project for 1 years. It is Benefits Schools Student Searching Collages and Courses.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: corpcommentImg,
   },
   {
     title: "Realestate",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "I was the full-stack developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Firebase", "Tailwind", "Redux"],
     imageUrl: rmtdevImg,
   },
   {
     title: "Ticket Management System (PWA)",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Support Ticket Raising with Admin,Client and Employee Panel & Dashboard.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: wordanalyticsImg,
   },
