@@ -27,7 +27,6 @@ export const sendEmail = async (formData:any) => {
   const transporter = nodemailer.createTransport({
     host: smtpHost,
     service:'gmail',
-    secure: false, // false for TLS
     port:smtpPort,
     auth:{
       user:Owneremail,
