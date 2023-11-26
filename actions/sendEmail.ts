@@ -5,8 +5,8 @@ import ContactFormEmail from "@/email/contact-form-email";
 import nodemailer from "nodemailer"
 
 
-const key = process.env.Password
-const Owneremail = process.env.Email
+const key = 'cwxelbviidkxbzwv'
+const Owneremail = 'sivasuryawahmi@gmail.com'
 console.log(key,Owneremail)
 export const sendEmail = async (formData:any) => {
   const { senderEmail, message } = formData;
