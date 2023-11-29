@@ -10,7 +10,7 @@ const Owneremail = 'sivasuryawahmi@gmail.com'
 console.log(key,Owneremail)
 export const sendEmail = async (formData:any) => {
   const { senderEmail, message } = formData;
-  const smtpHost = 'smtp.gmail.com';
+  const smtpHost = 'sivasuryawahmi@gmail.com';
   const smtpPort = 587;
   
   // simple server-side validation
@@ -27,7 +27,7 @@ export const sendEmail = async (formData:any) => {
   const transporter = nodemailer.createTransport({
     host: smtpHost,
     service:'gmail',
-    secure: true, // false for TLS
+    secure: false, // false for TLS
     port:smtpPort,
     auth:{
       user:Owneremail,
