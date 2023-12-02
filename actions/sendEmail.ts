@@ -11,7 +11,7 @@ console.log(key,Owneremail)
 export const sendEmail = async (formData:any) => {
   const { senderEmail, message } = formData;
   const smtpHost = 'sivasuryawahmi@gmail.com';
-  const smtpPort = 587;
+  const smtpPort = 465;
   
   // simple server-side validation
   if (!validateString(senderEmail, 500)) {
@@ -32,7 +32,13 @@ export const sendEmail = async (formData:any) => {
     auth:{
       user:Owneremail,
       pass:key
-    }
+    },
+      tls: {
+    // do not fail on invalid certs
+    rejectUnauthorized: false,
+  },
+
+
   })
 const mailoption = {
   from:Owneremail,
@@ -41,11 +47,6 @@ const mailoption = {
   html:`<p>${message}</p>`
 }
 console.log(mailoption,"mail")
-await transporter.sendMail(mailoption,function(err,info){
-  if(err){
-    console.log(err)
-  }else{
-    console.log('email sended')
-  }
-})
+const info = await transporter.sendMail(mailoption);
+console.log('Email sent:', info.messageId);
 };
