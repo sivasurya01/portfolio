@@ -99,4 +99,5 @@ export const skillsData = [
   "Redux",
   "Express",
   "Firebase",
+  "Bootstrap"
 ] as const;

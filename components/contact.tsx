@@ -48,6 +48,8 @@ const [message,setMessage] = useState('')
             message:message}
           await sendEmail(formData);
           toast.success("Email sent successfully!");
+          setMessage('')
+          setEmail('')
       }}
   
       >
@@ -57,6 +59,7 @@ const [message,setMessage] = useState('')
           type="email"
           required
           maxLength={500}
+          value={email}
           placeholder="Your email"
           onChange={e=>setEmail(e.target.value)}
         />
@@ -67,6 +70,7 @@ const [message,setMessage] = useState('')
           required
           maxLength={5000}
           onChange={e=>setMessage(e.target.value)}
+          value={message}
 
         />
         <SubmitBtn />
