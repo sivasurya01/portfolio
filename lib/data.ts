@@ -70,7 +70,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 1 years. It is Benefits Schools Student Searching Collages and Courses.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: zenzpathimg,
-    link:''
+    link:""
   },
   {
     title: "Realestate",
@@ -78,7 +78,7 @@ export const projectsData = [
       "I was the full-stack developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Firebase", "Tailwind", "Redux"],
     imageUrl: realestaeimg,
-    link:''
+    link:""
 
   },
   {
@@ -87,7 +87,7 @@ export const projectsData = [
       "Support Ticket Raising with Admin,Client and Employee Panel & Dashboard.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: ticketimg,
-    link:''
+    link:""
 
   },
 ] as const;
@@ -98,7 +98,7 @@ export const miniprojectData = [
       "My calculator app offers a straightforward solution for performing diverse mathematical calculations, ensuring ease of use.",
     tags: ["React"],
     imageUrl: calculaterimg,
-    link:'https://newlive.vercel.app/'
+    link:"https://newlive.vercel.app/"
   },
   {
     title: "Stop Watch",
@@ -106,7 +106,7 @@ export const miniprojectData = [
       "I've developed a stopwatch application for tracking time intervals with precision.",
     tags: ["React", "Tailwind"],
     imageUrl: stopwatchimg,
-    link:'https://sivasurya01.github.io/stopwatch/'
+    link:"https://sivasurya01.github.io/stopwatch/"
   },
   {
     title: "User Management System",
@@ -114,7 +114,7 @@ export const miniprojectData = [
       "I created a user management system with JWT authentication, providing secure access control and supporting essential operations like edit, delete, and create.",
     tags: ["React", "MongoDB", "Tailwind","Express","Nodejs"],
     imageUrl: usermageimg,
-    link:'https://github.com/sivasurya01/MERNStack'
+    link:"https://github.com/sivasurya01/MERNStack"
   },
   {
     title: "Customize Input Npm Package",
@@ -122,7 +122,7 @@ export const miniprojectData = [
       "Support Ticket Raising with Admin,Client and Employee Panel & Dashboard.",
     tags: ["javascript","Nodejs"],
     imageUrl: inputpackageimg,
-    link:'https://www.npmjs.com/package/@sivasurya/sivasurya-custom-react-input'
+    link:"https://www.npmjs.com/package/@sivasurya/sivasurya-custom-react-input"
   },
 ] as const;
 export const skillsData = [

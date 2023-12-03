@@ -6,7 +6,7 @@ import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import Link from "next/link";
 
-type ProjectProps = (typeof miniprojectData)[number];
+// type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
@@ -14,7 +14,7 @@ export default function Project({
   tags,
   imageUrl,
   link,
-}: ProjectProps) {
+}: any) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -40,7 +40,7 @@ export default function Project({
             {description}
           </p>
           <ul className="flex flex-wrap mt-4  gap-2 sm:mt-auto">
-            {tags.map((tag, index) => (
+            {tags.map((tag:any, index:any) => (
               <li
                 className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
                 key={index}
