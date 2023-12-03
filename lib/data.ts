@@ -70,6 +70,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 1 years. It is Benefits Schools Student Searching Collages and Courses.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: zenzpathimg,
+    link:''
   },
   {
     title: "Realestate",
@@ -77,6 +78,8 @@ export const projectsData = [
       "I was the full-stack developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Firebase", "Tailwind", "Redux"],
     imageUrl: realestaeimg,
+    link:''
+
   },
   {
     title: "Ticket Management System (PWA)",
@@ -84,6 +87,8 @@ export const projectsData = [
       "Support Ticket Raising with Admin,Client and Employee Panel & Dashboard.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: ticketimg,
+    link:''
+
   },
 ] as const;
 export const miniprojectData = [
