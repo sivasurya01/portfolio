@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
+      <p className="mb-3 text-justify">
         After graduating with a degree in{" "}
         <span className="font-medium">Engineering</span>, I decided to pursue my
         passion for programming. I am joyned to Wahmi Software and Solution Became learned{" "}
@@ -37,7 +37,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="">When I'm not coding</span>, I enjoy playing
         video games, watching movies, and playing with my dog. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. 
       </p>
