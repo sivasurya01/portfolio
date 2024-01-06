@@ -4,7 +4,6 @@ import Image from "next/image";
 import React from "react";
 import sivasurya from "@/public/sivasurya.jpg"
 import { TypeAnimation } from "react-type-animation";
-
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";

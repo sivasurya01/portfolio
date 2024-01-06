@@ -93,7 +93,7 @@ export const projectsData = [
 ] as const;
 export const miniprojectData = [
   {
-    title: "Calculater",
+    title: "Calculator",
     description:
       "My calculator app offers a straightforward solution for performing diverse mathematical calculations, ensuring ease of use.",
     tags: ["React"],
