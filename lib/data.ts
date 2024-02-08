@@ -41,7 +41,7 @@ export const experiencesData = [
     title: "Graduated E.G.S Pillay Engineering Collage",
     location: "Nagapattinum,",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I immediately found a job as a front-end developer.",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
