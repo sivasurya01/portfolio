@@ -21,7 +21,7 @@ export default function About() {
       <p className="mb-3 text-justify">
         After graduating with a degree in{" "}
         <span className="font-medium">Engineering</span>, I decided to pursue my
-        passion for programming. I am joyned to Wahmi Software and Solution Became learned{" "}
+        passion for programming. I am joined to Wahmi Software and Solution Became learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
