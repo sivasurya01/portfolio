@@ -93,22 +93,6 @@ export const projectsData = [
 ] as const;
 export const miniprojectData = [
   {
-    title: "Calculator",
-    description:
-      "My calculator app offers a straightforward solution for performing diverse mathematical calculations, ensuring ease of use.",
-    tags: ["React"],
-    imageUrl: calculaterimg,
-    link:"https://newlive.vercel.app/"
-  },
-  {
-    title: "Stop Watch",
-    description:
-      "I've developed a stopwatch application for tracking time intervals with precision.",
-    tags: ["React", "Tailwind"],
-    imageUrl: stopwatchimg,
-    link:"https://sivasurya01.github.io/stopwatch/"
-  },
-  {
     title: "User Management System",
     description:
       "I created a user management system with JWT authentication, providing secure access control and supporting essential operations like edit, delete, and create.",
