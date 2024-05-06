@@ -103,7 +103,7 @@ export const miniprojectData = [
   {
     title: "Customize Input Npm Package",
     description:
-      "Support Ticket Raising with Admin,Client and Employee Panel & Dashboard.",
+      "I created an npm package for React or Next.js projects.",
     tags: ["javascript","Nodejs"],
     imageUrl: inputpackageimg,
     link:"https://www.npmjs.com/package/@sivasurya/sivasurya-custom-react-input"
