@@ -5,10 +5,13 @@ import { LuGraduationCap } from "react-icons/lu";
 import zenzpathimg from "@/public/Zenzpath.png";
 import realestaeimg from "@/public/Realestate.png";
 import ticketimg from "@/public/Ticket.png";
-import calculaterimg from "@/public/calculater.png"
-import stopwatchimg from "@/public/stop.png"
-import usermageimg from "@/public/users.png"
-import inputpackageimg from "@/public/inputpackage.png"
+import trainingimg from "@/public/Training-Management-System.svg";
+import calculaterimg from "@/public/calculater.png";
+import stopwatchimg from "@/public/stop.png";
+import usermageimg from "@/public/users.png";
+import quizimg from "@/public/quizapp.png";
+import formimg from "@/public/formapp.png";
+import inputpackageimg from "@/public/inputpackage.png";
 export const links = [
   {
     name: "Home",
@@ -70,7 +73,7 @@ export const projectsData = [
       "I worked as a full-stack developer on this startup project for 1 years. It is Benefits Schools Student Searching Collages and Courses.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: zenzpathimg,
-    link:""
+    link: "",
   },
   {
     title: "Realestate",
@@ -78,8 +81,7 @@ export const projectsData = [
       "I was the full-stack developer. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Firebase", "Tailwind", "Redux"],
     imageUrl: realestaeimg,
-    link:""
-
+    link: "",
   },
   {
     title: "Ticket Management System (PWA)",
@@ -87,8 +89,15 @@ export const projectsData = [
       "Support Ticket Raising with Admin,Client and Employee Panel & Dashboard.",
     tags: ["React", "Firebase", "Tailwind"],
     imageUrl: ticketimg,
-    link:""
-
+    link: "",
+  },
+  {
+    title: "Training Management System",
+    description:
+      "I'm developing a project management system focused on Course administration and HR/payroll functions.",
+    tags: ["React", "Redux", "Firebase", "Bootstrap"],
+    imageUrl: trainingimg,
+    link: "",
   },
 ] as const;
 export const miniprojectData = [
@@ -96,17 +105,32 @@ export const miniprojectData = [
     title: "User Management System",
     description:
       "I created a user management system with JWT authentication, providing secure access control and supporting essential operations like edit, delete, and create.",
-    tags: ["React", "MongoDB", "Tailwind","Express","Nodejs"],
+    tags: ["React", "MongoDB", "Tailwind", "Express", "Nodejs"],
     imageUrl: usermageimg,
-    link:"https://github.com/sivasurya01/MERNStack"
+    link: "https://github.com/sivasurya01/MERNStack",
   },
   {
     title: "Customize Input Npm Package",
-    description:
-      "I created an npm package for React or Next.js projects.",
-    tags: ["javascript","Nodejs"],
+    description: "I created an npm package for React or Next.js projects.",
+    tags: ["javascript", "Nodejs"],
     imageUrl: inputpackageimg,
-    link:"https://www.npmjs.com/package/@sivasurya/sivasurya-custom-react-input"
+    link: "https://www.npmjs.com/package/@sivasurya/sivasurya-custom-react-input",
+  },
+  {
+    title: "Quiz App",
+    description:
+      "I've designed a versatile quiz app featuring three distinct formats: multiple-choice, true or false, and multiple-choice with multiple answers.",
+    tags: ["React"],
+    imageUrl: quizimg,
+    link: "#",
+  },
+  {
+    title: "Form Creation App",
+    description:
+      "I'm developing a form creation app with intuitive drag-and-drop functionality for adding fields, along with comprehensive settings for customizing form fields. Users can also preview their forms before finalizing them.",
+    tags: ["React"],
+    imageUrl: formimg,
+    link: "#",
   },
 ] as const;
 export const skillsData = [
@@ -124,5 +148,5 @@ export const skillsData = [
   "Redux",
   "Express",
   "Firebase",
-  "Bootstrap"
+  "Bootstrap",
 ] as const;
