@@ -6,6 +6,7 @@ import zenzpathimg from "@/public/Zenzpath.png";
 import realestaeimg from "@/public/Realestate.png";
 import ticketimg from "@/public/Ticket.png";
 import trainingimg from "@/public/Training-Management-System.svg";
+import weatherimg from "@/public/weatherapp.png";
 import calculaterimg from "@/public/calculater.png";
 import stopwatchimg from "@/public/stop.png";
 import usermageimg from "@/public/users.png";
@@ -131,6 +132,14 @@ export const miniprojectData = [
     tags: ["React"],
     imageUrl: formimg,
     link: "#",
+  },
+  {
+    title: "Weather App",
+    description:
+      "I'm crafting a user-friendly weather app where users simply input a city name and click 'search' to retrieve detailed weather information effortlessly.",
+    tags: ["React"],
+    imageUrl: weatherimg,
+    link: "https://weathergetapp.vercel.app/",
   },
 ] as const;
 export const skillsData = [
