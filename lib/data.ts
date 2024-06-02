@@ -123,7 +123,7 @@ export const miniprojectData = [
       "I've designed a versatile quiz app featuring three distinct formats: multiple-choice, true or false, and multiple-choice with multiple answers.",
     tags: ["React"],
     imageUrl: quizimg,
-    link: "#",
+    link: "https://quizcreationapp.netlify.app/",
   },
   {
     title: "Form Creation App",
