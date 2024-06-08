@@ -108,7 +108,7 @@ export const miniprojectData = [
       "I created a user management system with JWT authentication, providing secure access control and supporting essential operations like edit, delete, and create.",
     tags: ["React", "MongoDB", "Tailwind", "Express", "Nodejs"],
     imageUrl: usermageimg,
-    link: "https://github.com/sivasurya01/MERNStack",
+    link: "https://sivausers-management-system.vercel.app/",
   },
   {
     title: "Customize Input Npm Package",
