@@ -128,7 +128,7 @@ export const miniprojectData = [
   {
     title: "Form Creation App",
     description:
-      "I'm developing a form creation app with intuitive drag-and-drop functionality for adding fields, along with comprehensive settings for customizing form fields. Users can also preview their forms before finalizing them.",
+      "I've designed a versatile quiz app with multiple-choice, true or false, and multiple-answer formats. It includes a preview option and functions for encrypting and decrypting answers for enhanced security.",
     tags: ["React"],
     imageUrl: formimg,
     link: "#",
