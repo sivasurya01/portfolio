@@ -10,6 +10,7 @@ import weatherimg from "@/public/weatherapp.png";
 import calculaterimg from "@/public/calculater.png";
 import stopwatchimg from "@/public/stop.png";
 import usermageimg from "@/public/users.png";
+import employeemageimg from "@/public/employee-management-image.png";
 import quizimg from "@/public/quizapp.png";
 import formimg from "@/public/formapp.png";
 import inputpackageimg from "@/public/inputpackage.png";
@@ -111,6 +112,14 @@ export const miniprojectData = [
     link: "https://sivausers-management-system.vercel.app/",
   },
   {
+    title: "Employee Management System",
+    description:
+      "I created a employee management system with supporting essential operations like edit, delete, and create.",
+    tags: ["React", "MySql", "Bootstrap", "Express", "Nodejs"],
+    imageUrl: employeemageimg,
+    link: "https://siva-employee-management-system.vercel.app/",
+  },
+  {
     title: "Customize Input Npm Package",
     description: "I created an npm package for React or Next.js projects.",
     tags: ["javascript", "Nodejs"],
@@ -121,7 +130,7 @@ export const miniprojectData = [
     title: "Quiz App",
     description:
       "I've designed a versatile quiz app featuring three distinct formats: multiple-choice, true or false, and multiple-choice with multiple answers. The app also includes a preview option and functions for encrypting and decrypting answers, ensuring a secure and user-friendly experience.",
-    tags: ["React"],
+    tags: ["React", "Bootstrap"],
     imageUrl: quizimg,
     link: "https://quizcreationapp.netlify.app/",
   },
@@ -129,7 +138,7 @@ export const miniprojectData = [
     title: "Form Creation App",
     description:
       "I've designed a versatile quiz app with multiple-choice, true or false, and multiple-answer formats. It includes a preview option and functions for encrypting and decrypting answers for enhanced security.",
-    tags: ["React"],
+    tags: ["React", "Bootstrap"],
     imageUrl: formimg,
     link: "#",
   },
@@ -137,7 +146,7 @@ export const miniprojectData = [
     title: "Weather App",
     description:
       "I'm crafting a user-friendly weather app where users simply input a city name and click 'search' to retrieve detailed weather information effortlessly.",
-    tags: ["React"],
+    tags: ["React", "Bootstrap"],
     imageUrl: weatherimg,
     link: "https://weathergetapp.vercel.app/",
   },
@@ -154,6 +163,7 @@ export const skillsData = [
   "Git Hub",
   "Tailwind",
   "MongoDB",
+  "MySql",
   "Redux",
   "Express",
   "Firebase",
