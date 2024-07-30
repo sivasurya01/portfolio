@@ -22,7 +22,7 @@ export default function Projects() {
           ))}
         </div>
       </section>
-      <section ref={ref} id="projects" className="scroll-mt-28 mb-28">
+      <section ref={ref} id="miniprojects" className="scroll-mt-28 mb-28">
         <SectionHeading>Own/Mini projects</SectionHeading>
         <div>
           {miniprojectData.map((project, index) => (
