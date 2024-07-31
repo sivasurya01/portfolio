@@ -51,7 +51,7 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "Front-End Developer",
+    title: "Front-End (React) Developer",
     location: "Nagore,",
     description:
       "I worked as a front-end developer for 6 months. I also upskilled to the full stack.",
