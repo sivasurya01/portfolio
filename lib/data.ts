@@ -107,7 +107,7 @@ export const miniprojectData = [
     title: "User Management System",
     description:
       "I created a user management system with JWT authentication, providing secure access control and supporting essential operations like edit, delete, and create.",
-    tags: ["React", "MongoDB", "Tailwind", "Express", "Nodejs"],
+    tags: ["React","Redux", "MongoDB", "Tailwind", "Express", "Nodejs"],
     imageUrl: usermageimg,
     link: "https://sivausers-management-system.vercel.app/",
   },
