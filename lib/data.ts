@@ -115,7 +115,7 @@ export const miniprojectData = [
     title: "Employee Management System",
     description:
       "I created a employee management system with supporting essential operations like edit, delete, and create.",
-    tags: ["React", "MySql", "Bootstrap", "Express", "Nodejs"],
+    tags: ["React","Redux", "MySql", "Bootstrap", "Express", "Nodejs"],
     imageUrl: employeemageimg,
     link: "https://siva-employee-management-system.vercel.app/",
   },
