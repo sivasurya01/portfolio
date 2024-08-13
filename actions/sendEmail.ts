@@ -40,7 +40,7 @@ export const sendEmail = async (formData: any) => {
   const mailoption = {
     from: senderEmail,
     to: Owneremail,
-    subject: `New Email From my Portfolio ${senderEmail}`,
+    subject: `New Email From my Portfolio senderEmail was - ${senderEmail}`,
     html: `<p>${message}</p>`,
   };
   console.log(mailoption, "mail");
