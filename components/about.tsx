@@ -28,7 +28,7 @@ export default function About() {
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB,Firebase
+          React, Next.js, Node.js, .Net and MongoDB,Firebase, MS Sql
         </span>
         . I am also familiar with TypeScript. I am always looking to
         learn new technologies. I am currently looking for a{" "}
@@ -37,9 +37,8 @@ export default function About() {
       </p>
 
       <p>
-        <span className="">When I'm not coding</span>, I enjoy playing
-        video games. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. 
+        <span className="">When I'm not coding</span>,{" "}
+        <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>
   );

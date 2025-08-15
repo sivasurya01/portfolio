@@ -65,22 +65,25 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Sivasurya {" "}
-        <TypeAnimation
-              sequence={[
-                "Web Developer",
-                1000,
-                "React Developer",
-                1000,
-                "Full-Stack Developer",
-                1000,
-              ]}
-              wrapper="span"
-              speed={50}
-              repeat={Infinity}
-            /></span> with{" "}
-        <span className="font-bold">2 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+          <TypeAnimation
+            sequence={[
+              "Web Developer",
+              1000,
+              "React Developer",
+              1000,
+              "Full-Stack Developer",
+              1000,
+              "Senior Software Engineer",
+              1000,
+            ]}
+            wrapper="span"
+            speed={50}
+            repeat={Infinity}
+          /></span> with{" "}
+        <span className="font-bold">3 years</span> of experience. I enjoy
+        building <span className="italic">sites & web apps.</span>
+        {/* . My focus is{" "}
+        <span className="underline">React (Next.js)</span>. */}
       </motion.h1>
 
       <motion.div

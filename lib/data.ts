@@ -51,20 +51,19 @@ export const experiencesData = [
     date: "2022",
   },
   {
-    title: "Front-End (React) Developer",
+    title: "Front-End React Developer at Wahmi Softwares and Solutions",
     location: "Nagore,",
     description:
-      "I worked as a front-end developer for 6 months. I also upskilled to the full stack.",
+      "I worked as a front-end developer. I also upskilled to the full stack.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "06/2022 - 07/2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Nagore,",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Firebase and MongoDB. I'm open to full-time opportunities.",
+    title: "Senior Software Engineer at HCL Tech",
+    location: "Chennai,",
+    description: "I working as a UI Designer",
     icon: React.createElement(FaReact),
-    date: "2023 - 07/2024",
+    date: "10/2024 - present",
   },
 ] as const;
 
@@ -107,7 +106,7 @@ export const miniprojectData = [
     title: "User Management System",
     description:
       "I created a user management system with JWT authentication, providing secure access control and supporting essential operations like edit, delete, and create.",
-    tags: ["React","Redux", "MongoDB", "Tailwind", "Express", "Nodejs"],
+    tags: ["React", "Redux", "MongoDB", "Tailwind", "Express", "Nodejs"],
     imageUrl: usermageimg,
     link: "https://sivausers-management-system.vercel.app/",
   },
@@ -115,7 +114,7 @@ export const miniprojectData = [
     title: "Employee Management System",
     description:
       "I created a employee management system with supporting essential operations like edit, delete, and create.",
-    tags: ["React","Redux", "MySql", "Bootstrap", "Express", "Nodejs"],
+    tags: ["React", "Redux", "MySql", "Bootstrap", "Express", "Nodejs"],
     imageUrl: employeemageimg,
     link: "https://siva-employee-management-system.vercel.app/",
   },
@@ -156,6 +155,7 @@ export const skillsData = [
   "CSS",
   "JavaScript",
   "TypeScript",
+  "Jquery",
   "React",
   "Next.js",
   "Node.js",
@@ -163,9 +163,12 @@ export const skillsData = [
   "Git Hub",
   "Tailwind",
   "MongoDB",
-  "MySql",
+  "MS Sql",
   "Redux",
   "Express",
   "Firebase",
   "Bootstrap",
+  ".NetCore",
+  "Jira",
+  "Azure Devops",
 ] as const;
